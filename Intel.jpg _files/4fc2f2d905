@@ -1,0 +1,24 @@
+(function () {if (typeof (window["ccs_cc_loadQueue"]) == "undefined") {
+window["ccs_cc_initParams"] = ["32b0440c", "ws.cnetcontent.com"];
+window["ccs_cc_loadQueue"] = [];
+var s = document.createElement("script");
+s.type = "text/javascript";
+s.src = "http://cdn.cnetcontent.com/jsc/cl.js";
+document.getElementsByTagName("head")[0].appendChild(s);}})();
+window["ccs_cc_loadQueue"].push({
+"ldn" : "ccs_cc_ld_4fc2f2d905"
+,
+"styleSheets" : [
+"http://cdn.cnetcontent.com/redirect/gp-subscriber-files/32b0440c/4fc2f2d905/Style.Minified/20140410203056.css"]
+,
+"startScripts" : [
+{"src":"http://cdn.cnetcontent.com/jsc/track/cbsiDIL.js"}
+]
+,
+"inlineScript" : "(function() {\r\nvar d = DIL.create({ partner: \u0027cbsi\u0027, uuidCookie: { name:\u0027aam_uuid\u0027, days: 30 } });\r\nfunction isEmpty(obj) { for (var p in obj) { if (obj.hasOwnProperty(p) && p !== \u0027\u0027) { return false; } } return true; }\r\nvar uri = DIL.tools.decomposeURI(document.URL);\r\ndelete uri.hash; delete uri.search; delete uri.host;\r\nif (!isEmpty(uri.uriParams)) { d.api.signals(uri.uriParams, \u0027c_URL\u0027); };\r\ndelete uri.uriParams;\r\nif (isEmpty(uri.pathname)) { delete uri.pathname; };\r\nd.api.signals(uri, \u0027c_URL\u0027);\r\nd.api.signals({\r\n\u0027c_cat1\u0027: \u0027none\u0027, \u0027c_cat2\u0027: \u0027none\u0027, \u0027c_cat3\u0027: \u0027none\u0027, \u0027c_cat4\u0027: \u0027none\u0027, \u0027c_cat5\u0027: \u0027none\u0027, \u0027c_cat6\u0027: \u0027none\u0027, \u0027c_lang\u0027: \u0027en-US\u0027, \u0027c_market\u0027: \u0027US\u0027, \u0027c_mf\u0027: \u0027Intel\u0027, \u0027c_pn\u0027: \u0027BX80633I74960X\u0027, \u0027c_ptype\u0027: \u0027product\u0027, \u0027c_subscriber\u0027: \u0027Rakuten.com\u0027, \u0027c_upcean\u0027: \u0027735858272278\u0027\r\n});\r\nd.api.submit();\r\n}());\r\n\r\n(function() {\r\nvar s = document.createElement(\u0027script\u0027);\r\ns.type = \u0027text/javascript\u0027;\r\ns.src = \u0027http://logo.cnetcontentsolutions.com/hook?h=37693cfc&mf=Intel&pn=BX80633I74960X&upcean=735858272278&locale=en-US&style=1&layout=5x1&locationId=ccs-logos&bootstrap=immediate&hash=21ff41\u0027;\r\ndocument.getElementsByTagName(\u0027head\u0027)[0].appendChild(s);\r\n}());\r\n\r\nccs_cc_loge_4fc2f2d905(\u002734e5b4e8\u0027);function ccs_cc_loge_4fc2f2d905(id, args){var et; var serverParams; var clientParams;switch (id) {\r\ncase \u002734e5b4e8\u0027: et=\u0027ProductHookLoad\u0027; serverParams={\"ServerTime\":\"5\",\"ResultCode\":\"0\"}; clientParams=null; break;\r\n} ccs_cc_log.logEvent (et, \u0027SKey=32b0440c&LCID=1033&Market=US&ZoneId=4fc2f2d905&ZoneVer=9&MfgId=25&MfgPn=BX80633I74960X&CatalogId=_DNS&SMfgName=Intel&SMfgPn=BX80633I74960X&SEanUpc=735858272278\u0027, serverParams, clientParams); }\r\n"
+,
+"inlineStyle" : "\r\n\r\n"
+,
+"sites" : [
+"rakuten.com","www.rakuten.com","cnetcontentsolutions.com","cnetcontent.com","cnetcontentcast.com"]
+});

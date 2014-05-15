@@ -1,7 +1,83 @@
 #title{
 
 	 font-family: 'Nosifer';
-	 font-size: 35px;
+	 font-size: 55px;
 	text-align: center;
 	margin-top: 75px;
 }
+#intro{
+
+text-align:center;
+color:white;
+}
+
+img:hover{
+	opacity: 0.5;
+
+}
+
+#list{
+	text-align: center ;
+	color:white;
+}
+
+#intro1{
+	text-align:center;
+	color:purple;
+}
+#topics{
+	font-size: 20px;}
+
+
+#para1{ 
+	width:500px; 
+	height:200px;
+	margin-left:100px;
+}
+
+#rp1{
+	float: left;
+}
+#para2{
+	width:500px; 
+	height:200px;
+	margin-left:100px;
+	}
+#topics1{
+	font-size: 20px;
+	margin-left: 400px;
+}
+
+#topic2{
+	margin-left: 400px;
+}
+#topic3{
+	margin-left:400px; 
+}
+#rp2{
+	float: left;
+
+}
+#rp3{
+	float: left;
+}
+#para3{
+	width:500px; 
+	height:200px;
+	margin-left:100px;
+	}
+
+
+	#text1{
+		color:red;
+		font-size:18px;
+		width:360px;
+		margin-left: 500px;
+		}  
+
+		#text2{ 
+			
+			color:red;
+			width:700px;
+			font-size: 24px;
+		}
